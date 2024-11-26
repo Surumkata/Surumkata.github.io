@@ -1,7 +1,8 @@
+import { Content } from "./Content";
 import { Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, WIDTH, H1, H2, playSound,KEY_HOLD_DELAY, shadow, glow } from "./utils";
 
 export class Folder extends Content{
-    constructor(folder_icon,folder_name){
+    constructor(folder_icon,folder_name,contents){
         super();
         this.folder_name = folder_name;
         this.contents = contents;

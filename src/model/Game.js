@@ -8,7 +8,7 @@ export class Game extends Content{
         this.info = info;
         this.gameName = gameName;
 
-        const iconPath = `surumkata.github.io/assets/games/${gameName}.png`;
+        const iconPath = `/assets/games/${gameName}.png`;
         this.icon = p5.loadImage(
             iconPath,
             () => console.log(`Carregado: ${iconPath}`),

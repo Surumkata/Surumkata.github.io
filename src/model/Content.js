@@ -44,7 +44,7 @@ export class ContentLink extends Content{
         this.link = link;
         this.info = info;
 
-        const iconPath = `surumkata.github.io/assets/icons/${iconName}.png`;
+        const iconPath = `/assets/icons/${iconName}.png`;
         this.icon = p5.loadImage(
             iconPath,
             () => console.log(`Carregado: ${iconPath}`),

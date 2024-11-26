@@ -5,7 +5,7 @@ export class Project extends Content{
     constructor(p5,name,title,tecnologies) {
         super();
         this.name = name
-        const imagePath = `surumkata.github.io/assets/projects/${this.name}.png`;
+        const imagePath = `/assets/projects/${this.name}.png`;
         this.image = p5.loadImage(
             imagePath,
             () => console.log(`Carregado: ${imagePath}`),
@@ -14,7 +14,7 @@ export class Project extends Content{
         this.title = title;
         this.tecnologies = [];
         for (const i in tecnologies){
-            const tecnoPath = `surumkata.github.io/assets/icons/${tecnologies[i]}.png`;
+            const tecnoPath = `/assets/icons/${tecnologies[i]}.png`;
             this.tecnologies.push(p5.loadImage(
                 tecnoPath,
                 () => console.log(`Carregado: ${tecnoPath}`),
