@@ -1,8 +1,7 @@
-import { Content } from "./Content";
-import { X_MENU_START, Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH,H1, playSound, KEY_HOLD_DELAY, shadow } from "./utils";
+import { Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH,H1, playSound, KEY_HOLD_DELAY, shadow } from "./utils";
 
 export class MainOption{
-    constructor(p5,name_option, sub_options : [Content]) {
+    constructor(p5,name_option, sub_options) {
         this.name_option = name_option;
         const iconPath = `surumkata.github.io/assets/icons/${name_option}.png`;
         this.icon = p5.loadImage(

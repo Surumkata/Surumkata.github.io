@@ -1,5 +1,5 @@
 import { Content } from "./Content";
-import { X_MENU_START, Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, WIDTH, H1, H2, playSound,KEY_HOLD_DELAY, shadow, glow, PROJECT_WIDTH } from "./utils";
+import { ICON_HEIGHT, ICON_PADDING, WIDTH, H1, shadow, glow, PROJECT_WIDTH } from "./utils";
 
 export class Game extends Content{
     constructor(p5,gameName, title, info){
@@ -19,7 +19,7 @@ export class Game extends Content{
     
 
     keyPressed(event){
-        if(event.key == 'Enter'){
+        if(event.key === 'Enter'){
             // Abrir o projeto em uma nova aba
             const markdownUrl = `/#/games/${this.gameName}`; // URL da página Markdown
             window.open(markdownUrl, '_blank'); // Abre em uma nova aba

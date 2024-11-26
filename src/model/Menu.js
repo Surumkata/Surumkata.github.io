@@ -1,8 +1,7 @@
-import { MainOption } from "./MainOption";
-import { X_MENU_START, Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, playSound, KEY_HOLD_DELAY } from "./utils";
+import { X_MENU_START, Y_MENU_START, ICON_PADDING, ICON_WIDTH, playSound, KEY_HOLD_DELAY } from "./utils";
 
 export class Menu{
-    constructor(main_options : [MainOption]){
+    constructor(main_options){
         this.main_options = main_options;
         this.selected = 0;
 
@@ -21,8 +20,7 @@ export class Menu{
 
     keyPressed(event){
         const focus = this.main_options[this.selected].keyPressed(event);
-        if (focus != this.focus){
-            console.log("focus diferentes")
+        if (focus !== this.focus){
             this.focus = focus;
             this.blockInputs = true;
             if(this.focus){
