@@ -1,8 +1,7 @@
-import { Content } from "./Content";
-import { X_MENU_START, Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, WIDTH, H1, H2, playSound,KEY_HOLD_DELAY, shadow, glow } from "./utils";
+import { Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, WIDTH, H1, H2, playSound,KEY_HOLD_DELAY, shadow, glow } from "./utils";
 
 export class Folder extends Content{
-    constructor(folder_icon,folder_name, contents : [Content]){
+    constructor(folder_icon,folder_name){
         super();
         this.folder_name = folder_name;
         this.contents = contents;
@@ -25,7 +24,7 @@ export class Folder extends Content{
                 playSound();
             }
         }
-        else if(!this.focus && this.folder_open && (event.key === 'Escape' || event.key == 'ArrowLeft')){
+        else if(!this.focus && this.folder_open && (event.key === 'Escape' || event.key === 'ArrowLeft')){
             console.log("Fechar Folder..")
             this.folder_open = false;
             this.focus = false;

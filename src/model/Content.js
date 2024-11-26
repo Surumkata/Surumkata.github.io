@@ -1,4 +1,4 @@
-import { glow, H1, H2, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, PROJECT_WIDTH, shadow, WIDTH } from "./utils";
+import { glow, H1, H2, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH, shadow, WIDTH } from "./utils";
 
 export class Content{
     constructor(){
