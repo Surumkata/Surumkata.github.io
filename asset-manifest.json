@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/surumkata.github.io/static/css/main.e6c13ad2.css",
-    "main.js": "/surumkata.github.io/static/js/main.f3dcda97.js",
+    "main.js": "/surumkata.github.io/static/js/main.94054ae8.js",
     "index.html": "/surumkata.github.io/index.html",
     "main.e6c13ad2.css.map": "/surumkata.github.io/static/css/main.e6c13ad2.css.map",
-    "main.f3dcda97.js.map": "/surumkata.github.io/static/js/main.f3dcda97.js.map"
+    "main.94054ae8.js.map": "/surumkata.github.io/static/js/main.94054ae8.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f3dcda97.js"
+    "static/js/main.94054ae8.js"
   ]
 }
