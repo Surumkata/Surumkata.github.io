@@ -22,7 +22,7 @@ export const KEY_HOLD_DELAY = 120;
 
 // Inicializar contexto de áudio
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-const soundPath = "/assets/sounds/05 SFX Cursor.mp3";
+const soundPath = "surumkata.github.io/assets/sounds/05 SFX Cursor.mp3";
 let soundBuffer;
 
 fetch(soundPath)

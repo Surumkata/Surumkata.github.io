@@ -16,7 +16,7 @@ class Player {
     this.opacity = 1
 
     const image = new Image()
-    image.src = 'assets/games/space_invaders/img/spaceship.png'
+    image.src = 'surumkata.github.io/assets/games/space_invaders/img/spaceship.png'
     image.onload = () => {
       const scale = 0.15
       this.image = image
@@ -159,7 +159,7 @@ class Invader {
     }
 
     const image = new Image()
-    image.src = 'assets/games/space_invaders/img/invader.png'
+    image.src = 'surumkata.github.io/assets/games/space_invaders/img/invader.png'
     image.onload = () => {
       const scale = 1
       this.image = image

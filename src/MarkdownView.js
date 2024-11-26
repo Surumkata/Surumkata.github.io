@@ -13,7 +13,7 @@ const MarkdownView = () => {
         const loadMarkdown = async () => {
             setLoading(true);  // Começa o carregamento
             try {
-                const response = await fetch(`/data/projects/${markdown_file}`);
+                const response = await fetch(`surumkata.github.io/data/projects/${markdown_file}`);
                 const text = await response.text();  // Obtém o texto do arquivo markdown
                 setContent(text);  // Atualiza o conteúdo
             } catch (error) {

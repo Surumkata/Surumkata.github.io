@@ -31,14 +31,14 @@ const P5Sketch = () => {
             // Carregar cores
             color_background = p5.color(17, 103, 190);
 
-            const pspPath = `/assets/psp.png`;
+            const pspPath = `surumkata.github.io/assets/psp.png`;
             pspImage = p5.loadImage(
                 pspPath,
                 () => console.log(`Carregado: ${pspPath}`),
                 () => console.log(`Erro ao carregar: ${pspPath}`)
             );
 
-            const folderIconPath = `/assets/icons/folder.png`;
+            const folderIconPath = `surumkata.github.io/assets/icons/folder.png`;
             const folderIcon = p5.loadImage(
                 folderIconPath,
                 () => console.log(`Carregado: ${folderIconPath}`),

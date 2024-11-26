@@ -4,7 +4,7 @@ import { X_MENU_START, Y_MENU_START, ICON_HEIGHT, ICON_PADDING, ICON_WIDTH,H1, p
 export class MainOption{
     constructor(p5,name_option, sub_options : [Content]) {
         this.name_option = name_option;
-        const iconPath = `/assets/icons/${name_option}.png`;
+        const iconPath = `surumkata.github.io/assets/icons/${name_option}.png`;
         this.icon = p5.loadImage(
             iconPath,
             () => console.log(`Carregado: ${iconPath}`),

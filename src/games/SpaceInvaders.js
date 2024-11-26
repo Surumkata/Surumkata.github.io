@@ -4,7 +4,7 @@ const SpaceInvaders = () => {
   useEffect(() => {
     // Referencia o arquivo script.js que contém o código do jogo
     const script = document.createElement('script');
-    script.src = '/assets/games/space_invaders/script.js'; // Caminho relativo ao public/
+    script.src = 'surumkata.github.io/assets/games/space_invaders/script.js'; // Caminho relativo ao public/
     script.async = true; // Carrega o script de forma assíncrona
     document.body.appendChild(script);
 
