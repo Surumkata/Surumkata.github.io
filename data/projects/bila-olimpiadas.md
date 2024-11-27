@@ -7,6 +7,6 @@ Website feito para mostrar os resultados das olimpíadas dos biladeiros (Bila-Ol
 
 
 ### 
-![<img src="https://i.imgur.com/ol98FFw.png" width="100%">](https://i.imgur.com/ol98FFw.png)
-![<img src="https://i.imgur.com/Bf6RwD6.png" width="100%">](https://i.imgur.com/Bf6RwD6.png)
-![<img src="https://i.imgur.com/JME2bOt.png" width="100%">](https://i.imgur.com/JME2bOt.png)
+![<img src="https://i.imgur.com/ol98FFw.png" width="100%"](https://i.imgur.com/ol98FFw.png)
+![<img src="https://i.imgur.com/Bf6RwD6.png" width="100%"](https://i.imgur.com/Bf6RwD6.png)
+![<img src="https://i.imgur.com/JME2bOt.png" width="100%"](https://i.imgur.com/JME2bOt.png)
