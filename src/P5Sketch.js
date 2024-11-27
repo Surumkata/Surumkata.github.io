@@ -83,12 +83,9 @@ const P5Sketch = () => {
                 new MainOption(p5,"Papers",[new ContentLink(p5,"paper","ERPL: DSL for Escape Rooms","In 13th Symposium on Languages, Applications and Technologies (SLATE 2024)","https://drops.dagstuhl.de/entities/document/10.4230/OASIcs.SLATE.2024.9")]),
                 new MainOption(p5,"Social",[
                     new ContentLink(p5,"github","Github","Tiago Silva (surumkata)","https://github.com/surumkata"),
-                    new ContentLink(p5,"email","Email","tiagoluisdiassilva@gmail.com","mailto:simaopscunha@outlook.pt"),
+                    new ContentLink(p5,"email","Email","tiagoluisdiassilva@gmail.com","mailto:tiagoluisdiassilva@gmail.com"),
                     new ContentLink(p5,"linkedin","Linkedin","Tiago Silva (tiago-silva-48b244248)","https://www.linkedin.com/in/tiago-silva-48b244248/"),
-                    new ContentLink(p5,"twitter","Twitter","Geremias (@imgeremias)","https://twitter.com/imgeremias"),
                     new ContentLink(p5,"instagram","Instagram","Tiago Silva (surumkata)","https://instagram.com/surumkata"),
-                    new ContentLink(p5,"spotify","Spotify","Geremias (1176082548)","https://open.spotify.com/user/1176082548"),
-                    new ContentLink(p5,"letterboxd","Letterboxd","Geremias (surumkata)","https://letterboxd.com/surumkata/")
                 ])
             ])
         };
